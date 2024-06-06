@@ -1,0 +1,25 @@
+.canvas {
+    border: 1px solid black;
+}
+.canvas-wrapper {
+    clear: both;
+    text-align: center;
+}
+.page-header {
+    text-align: center;    
+}
+
+.page-count {
+    float: right;
+    margin: 1rem;
+}
+.page-navigators {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.navigator-option {
+    margin: 0 1rem;
+    height: 3rem;
+    width: 8rem;
+}

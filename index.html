@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Constitution of Kenya</title>
+    <!-- <script src="pdfjs/build/pdf.mjs" type="module"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.3.136/pdf.min.mjs" type="module"></script>
+    <script type="text/css" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.3.136/pdf_viewer.min.css"></script>
+    <script type="module" src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    </link>
+</head>
+
+<body>
+    <h1 class="page-header">Constitution of Kenya</h1>
+
+    <div>
+        <div class="page-navigators">
+            <button class="navigator-option" id="prev">Previous</button>
+            <button class="navigator-option" id="next">Next</button>
+        </div>
+
+        <div class="page-count">
+            <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+        </div>
+    </div>
+
+    <div class="canvas-wrapper">
+        <canvas id="the-canvas" class="canvas"></canvas>
+    </div>
+    
+</body>
+
+</html>
